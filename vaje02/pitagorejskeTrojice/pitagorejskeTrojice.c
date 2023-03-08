@@ -6,7 +6,7 @@ int main() {
     double c = 0;
     double a = 1;
     double b = 1;
-    double counter = 0;
+    int counter = 0;
 
     scanf("%lf %lf", &m, &n);
 
@@ -21,5 +21,5 @@ int main() {
             } 
         }
     }
-    printf("%d\n", (int) counter);
+    printf("%d\n", counter);
 }
