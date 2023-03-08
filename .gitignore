@@ -1,4 +1,4 @@
 *.zip
-*.out
+a.out
 *.diff
 *.res
