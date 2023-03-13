@@ -4,13 +4,19 @@ int charValue(int c);
 void putcharPrint(int sum);
 
 int main(){
-    int count = 1;
+    int count = 0;
+	int roundFlag = 0;
     int c = 0;
 
     while ((c = getchar()) == '0'){}
-    while ((c = getchar()) != '\n')
+    while ((c = getchar()) != '\n'){
+		if (c == '1')
+			roundFlag = 1;
         count++;
-
+	}
+	if (roundFlag)
+		count++;
+	
     putcharPrint(count);
     putchar('\n');
     return 0;
