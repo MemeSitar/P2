@@ -15,14 +15,18 @@ int main() {
     */
 
     int state = 0;
-    while ((c = getchar() != '\n')){
-        switch (state){
+    int c = 0;
 
+    while ((c = getchar()) != '\n'){
+        
+        switch (state){
             case 0: // zacetek
+            //printf("%d", state);
                 if (c == '0'){ // binarna, osmiska ali hex
                     state = 2;
-                } else if (c >= '1' && c <= '9'){ // desetiska
+                } else if ((c >= '1') && (c <= '9')){ // desetiska
                     state = 1;
+                    //printf("bingo");
                 }
                 break;
 
@@ -66,7 +70,11 @@ int main() {
                 break;
 
             case 5: // hex
-
+                if (c == ' '){ // uspesno konec
+                    state = 6; 
+                }else if (!((c >= '0' && c <= '9') || (c >= 'A' && c <= 'F'))){ // napaka!
+                    state = 7;
+                }                
                 break;
 
             case 6: // uspesno
@@ -79,8 +87,15 @@ int main() {
                     putchar('0');
                     state = 0; // nazaj v A
                 }
+                state = 0;
                 break;
         }
     }
+    if (state == 1 || state >= 2 && state <= 6){
+        putchar('1');
+    } else {
+        putchar('0');
+    }
+    putchar('\n');
     return 0;
 }
