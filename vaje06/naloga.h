@@ -5,5 +5,6 @@
 int steviloZnakov(char* besedilo, char znak);
 char* kopirajDoZnaka(char* niz, char znak);
 char** razcleni(char* besedilo, char locilo, int* stOdsekov);
+int dolzinaNiza(char * niz);
 
 #endif
