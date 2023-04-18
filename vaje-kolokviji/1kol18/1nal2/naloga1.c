@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 int steviloKta(char* niz, int k, int* indeks);
 void indeksi(char* niz, int** t);
@@ -46,7 +47,30 @@ void indeksi(char* niz, int** t){
 }
 
 char** zadnje(char** nizi){
-    return NULL;
+    // pogruntamo velikost tabele
+    int stevec = 0;
+    for(int i = 0; nizi[i] != NULL; i++){
+        stevec++;
+    }
+    char** tabela = malloc(stevec*sizeof(char*));
+    // gremo cez vse tabele
+    bool imaVeliko = false;
+    for(int i = 0; nizi[i] != NULL; i++){
+        //printf("%s\n", nizi[i]);
+        //printf("mjau%d\n", i);
+        for(int j = 0; nizi[i][j] != '\0'; j++){
+            if(nizi[i][j] >= 'A' && nizi[i][j]<= 'Z'){
+                tabela[i] = &nizi[i][j];
+                imaVeliko = true;
+            }
+        }
+        if (imaVeliko == false){
+            tabela[i] = NULL;
+        }
+        imaVeliko = false;
+    }
+    //printf("KONEC!\n");
+    return tabela;
 }
 
 int main(){
@@ -72,9 +96,15 @@ int main(){
     }
     printf("\n");
 
-
-
-
-
+    // testiranje tretjega dela
+    char* tabelaNizov[] = {"Jaz sem Jurij Sitar", "jaz sem jurij", "TEST", NULL};
+    char** tabelaZadnjih = zadnje(tabelaNizov);
+    for (int i = 0; i < 3; i++){
+        if (tabelaZadnjih[i] == NULL){
+            printf("NULL\n");
+        } else {
+            printf("%c\n", *tabelaZadnjih[i]);
+        }
+    }
     return 0;
 }
