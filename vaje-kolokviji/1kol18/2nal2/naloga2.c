@@ -33,6 +33,21 @@ void naslednjaPojavitev(char* niz, int* indeks){
     }
 }
 
+char* kopijaPodniza(char* niz, char c, int k){
+    int prviIndeks = 0;
+    pojavitve(niz, c, &prviIndeks);
+    int drugiIndeks = prviIndeks;
+    naslednjaPojavitev(niz, &drugiIndeks);
+    int dolzinaNiza = drugiIndeks - prviIndeks;
+    char* novNiz = malloc((dolzinaNiza+1)*sizeof(char));
+    int stevec = 0;
+    for(int i = prviIndeks+1; i < drugiIndeks; i++, stevec++){
+        novNiz[stevec] = niz[i];
+    }
+    novNiz[stevec+1] = '\0';
+    return novNiz;
+}
+
 int main(){
     // prvi test
     char* niz = "Ime mi je Jurij Sitar.";
@@ -56,7 +71,9 @@ int main(){
         "%c se v nizu drugic pojavi na %d. mestu.\n",
                 c, indeks
     );
-    return 0;
 
     //tretji test
+    char* novNiz = kopijaPodniza(niz, 'i', 1);
+    printf("%s\n", novNiz);
+    return 0;
 }
