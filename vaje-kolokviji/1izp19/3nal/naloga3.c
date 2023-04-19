@@ -29,7 +29,8 @@ long stMoznosti(int gor, int dol, int visina, long** t){
     if (gor == 0){
         t[gor][dol] = 1;
         return 1;
-    } if (t[gor][dol] != 0){
+    }
+    if (t[gor][dol] != 0){
         return t[gor][dol];
     }
     // dol == 0 ne more biti, brez gor == 0, ker bi to pomenilo da smo šli pod visina.
