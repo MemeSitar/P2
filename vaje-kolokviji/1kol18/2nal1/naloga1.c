@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+#define P(msg) {printf("%s\n", msg);}
+
 int manjse(int a, int b);
 
 int main(){
@@ -26,32 +28,63 @@ int main(){
     int i = 0;
     int j = 0;
     int stevec = 0;
+    //printf("mjau\n");
     while (i < dolzina1 || j < dolzina2){
+        while (i < dolzina1 && tabela1[i] == rezultat[stevec]){
+            i++;
+        }
+        while (j < dolzina2 && tabela2[j] == rezultat[stevec]){
+            j++;
+        }
+        
         if (tabela1[i] == tabela2[j]){
+            //printf("1. moznost iteracija i=%d j=%d\n", i, j);
             rezultat[stevec] = tabela1[i];
 
-            while(tabela1[i] == rezultat[stevec] && i < dolzina1){
+            while(i < dolzina1 && tabela1[i] == rezultat[stevec]){
                 i++;
+                //printf("Po inkrementu i=%d\n", i);
             }
-            while(tabela2[j] == rezultat[stevec] && j < dolzina2){
+            while(j < dolzina2 && tabela2[j] == rezultat[stevec]){
                 j++;
+                //printf("Po inkrementu j=%d\n", j);
             }
             stevec++;
-        } else if (tabela1[i] < tabela2[j]){
+            //printf("mjau?\n");
+        } else if (i < dolzina1 && j < dolzina2 && tabela1[i] < tabela2[j]){
+            //printf("2. moznost iteracija %d\n", i);
             rezultat[stevec] = tabela1[i];
-            while(tabela1[i] == rezultat[stevec] && i < dolzina1){
+            while(i < dolzina1 && tabela1[i] == rezultat[stevec]){
+            //if (j == 9) printf("MJAUUU\n");
                 i++;
             }
             stevec++;
-        } else if (tabela1[i] > tabela2[j]){
+        } else if (j < dolzina2 && i < dolzina1 && tabela1[i] > tabela2[j] ){
             rezultat[stevec] = tabela2[j];
-            while(tabela2[j] == rezultat[stevec] && j < dolzina2){
+            while(j < dolzina2 && tabela2[j] == rezultat[stevec]){
                 j++;
             }
             stevec++;
         }
+        if(i == dolzina1){
+            rezultat[stevec] = tabela2[j];
+            while(j < dolzina2 && tabela2[j] == rezultat[stevec]){
+                j++;
+            }
+            stevec++;
+        }
+        if(j == dolzina2){
+            rezultat[stevec] = tabela1[i];
+            while(i < dolzina1 && tabela1[i] == rezultat[stevec]){
+                i++;
+            }
+            stevec++;
+        }
     }
+    bool jeVecKotNic = false;
     for (int k = 0; k <= stevec; k++){
+        if (rezultat[k] > 0) jeVecKotNic = true;
+        if (jeVecKotNic && rezultat[k] == 0) break;
         printf("%d\n", rezultat[k]);
     }
 }
