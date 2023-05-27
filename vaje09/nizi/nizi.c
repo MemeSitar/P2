@@ -25,7 +25,7 @@ int main(){
 }
 
 void iteracija(int meja, int trenutna, char c1, char c2, char* crke){
-    if (c1 == c2 || meja == 0){
+    if (meja == 0){
         return;
     }
     char tmpc1 = c1;
