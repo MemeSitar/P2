@@ -5,6 +5,7 @@
 #define __
 
 void iteracija(int meja, int trenutna, char c1, char c2, char* crke);
+void spucajCrke(int meja, int trenutna, char* crke);
 
 int main(){
     int trenutna = 0;
@@ -33,5 +34,13 @@ void iteracija(int meja, int trenutna, char c1, char c2, char* crke){
         printf("%s\n", crke);
         iteracija(meja - 1, trenutna + 1, c1, c2, crke);
         tmpc1++;
+        spucajCrke(meja, trenutna, crke);
+    }
+}
+
+void spucajCrke(int meja, int trenutna, char* crke){
+    while(meja > 0){
+        crke[trenutna++] = '\0';
+        meja--;
     }
 }
