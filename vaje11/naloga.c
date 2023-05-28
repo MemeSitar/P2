@@ -7,18 +7,28 @@
 #include "naloga.h"
 
 int vsotaI(Vozlisce* zacetek) {
-    // popravite / dopolnite ...
-    return -999;
+    int vsota = 0;
+    Vozlisce* naslednje = zacetek;
+    while(naslednje != NULL){
+        vsota += naslednje->podatek;
+        naslednje = naslednje->naslednje;
+    }
+    return vsota;
 }
 
 int vsotaR(Vozlisce* zacetek) {
-    // popravite / dopolnite ...
-    return -999;
+    if(zacetek == NULL){
+        return 0;
+    }
+    if(zacetek->naslednje == NULL){
+        return zacetek->podatek;
+    }
+    return zacetek->podatek + vsotaR(zacetek->naslednje);
 }
 
 Vozlisce* vstaviUrejenoI(Vozlisce* zacetek, int element) {
     // popravite / dopolnite ...
-    return NULL;
+    return zacetek;
 }
 
 Vozlisce* vstaviUrejenoR(Vozlisce* zacetek, int element) {
