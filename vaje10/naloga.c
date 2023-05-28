@@ -26,15 +26,24 @@ int poisciPO(Student* student, char* predmet) {
 int dodaj(Student** studentje, int stStudentov, int vpisna, char* predmet, int ocena) {
     int indeks = poisciStudenta(studentje, stStudentov, vpisna);
     if (indeks == -1){
-        studentje[stStudentov] = (Student[]) {vpisna, (PO[]){{predmet, ocena}}, 1};
+        PO *tabelaOcen = malloc(sizeof(PO));
+        tabelaOcen[0].ocena = ocena;
+        Student * novStudent = malloc(sizeof(Student));
+        novStudent->po = tabelaOcen;
+        novStudent->stPO = 1;
+        novStudent->vpisna = vpisna;
+        strcpy(tabelaOcen[0].predmet , predmet);
+        studentje[stStudentov] = novStudent;
         stStudentov++;
     } else {
-        int indeksPo = poisciPO(studentje[indeks], predmet);
+        Student * student = studentje[indeks];
+        int indeksPo = poisciPO(student, predmet);
         if(indeksPo == -1){
-            studentje[indeks]->po[studentje[indeks]->stPO] = (PO){predmet, ocena};
-            studentje[indeks]->stPO++;
+            student->po[student->stPO].ocena = ocena;
+            strcpy(studentje[indeks]->po[studentje[indeks]->stPO].predmet, predmet);
+            student->stPO++;
         } else {
-            studentje[indeks]->po[indeksPo].ocena = ocena;
+            student->po[indeksPo].ocena = ocena;
         }
     }
     return stStudentov;
