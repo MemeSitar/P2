@@ -57,7 +57,22 @@ Vozlisce* vstaviUrejenoI(Vozlisce* zacetek, int element) {
 }
 
 Vozlisce* vstaviUrejenoR(Vozlisce* zacetek, int element) {
-    
+    if (zacetek->podatek >= element){
+        Vozlisce * novoVozlisce = malloc(sizeof(Vozlisce));
+        novoVozlisce->podatek = element;
+        novoVozlisce->naslednje = zacetek;
+        return novoVozlisce;
+    }
+    if (zacetek->podatek < element && zacetek->naslednje->podatek >= element){
+        Vozlisce * novoVozlisce = malloc(sizeof(Vozlisce));
+        novoVozlisce->podatek = element;
+        novoVozlisce->naslednje = zacetek->naslednje;
+        zacetek->naslednje = novoVozlisce;
+        return zacetek;
+    }
+    if (zacetek->naslednje->podatek < element){
+        return vstaviUrejenoR(zacetek->naslednje, element);
+    }
     return zacetek;
 }
 
