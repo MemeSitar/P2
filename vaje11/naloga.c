@@ -6,6 +6,8 @@
 
 #include "naloga.h"
 
+#define SEG printf("%s:%d\n", __FILE__, __LINE__);
+
 int vsotaI(Vozlisce* zacetek) {
     int vsota = 0;
     Vozlisce* naslednje = zacetek;
@@ -27,13 +29,36 @@ int vsotaR(Vozlisce* zacetek) {
 }
 
 Vozlisce* vstaviUrejenoI(Vozlisce* zacetek, int element) {
-    // popravite / dopolnite ...
+    Vozlisce* current = zacetek;
+    Vozlisce* next = current->naslednje;
+    if (current->podatek > element){
+        Vozlisce* novoVozlisce = malloc(sizeof(Vozlisce));
+        novoVozlisce->podatek = element;
+        novoVozlisce->naslednje = current;
+        return novoVozlisce;
+    }
+    
+    while(next != NULL && next->podatek < element){
+        current = next;
+        next = current->naslednje;
+    }
+    if (next->podatek >= element){
+        Vozlisce* novoVozlisce = malloc(sizeof(Vozlisce));
+        novoVozlisce->podatek = element;
+        current->naslednje = novoVozlisce;
+        novoVozlisce->naslednje = next;
+    } else if (next == NULL){
+        Vozlisce* novoVozlisce = malloc(sizeof(Vozlisce));
+        novoVozlisce->podatek = element;
+        current->naslednje = novoVozlisce;
+        novoVozlisce->naslednje = NULL;
+    }
     return zacetek;
 }
 
 Vozlisce* vstaviUrejenoR(Vozlisce* zacetek, int element) {
-    // popravite / dopolnite ...
-    return NULL;
+    
+    return zacetek;
 }
 
 #ifndef test
