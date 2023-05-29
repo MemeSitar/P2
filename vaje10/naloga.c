@@ -26,13 +26,13 @@ int poisciPO(Student* student, char* predmet) {
 int dodaj(Student** studentje, int stStudentov, int vpisna, char* predmet, int ocena) {
     int indeks = poisciStudenta(studentje, stStudentov, vpisna);
     if (indeks == -1){
-        PO *tabelaOcen = malloc(sizeof(PO));
+        PO *tabelaOcen = malloc(sizeof(PO) * 10);
         tabelaOcen[0].ocena = ocena;
         Student * novStudent = malloc(sizeof(Student));
         novStudent->po = tabelaOcen;
         novStudent->stPO = 1;
         novStudent->vpisna = vpisna;
-        strcpy(tabelaOcen[0].predmet , predmet);
+        memcpy(tabelaOcen[0].predmet , predmet, 4);
         studentje[stStudentov] = novStudent;
         stStudentov++;
     } else {
@@ -40,7 +40,7 @@ int dodaj(Student** studentje, int stStudentov, int vpisna, char* predmet, int o
         int indeksPo = poisciPO(student, predmet);
         if(indeksPo == -1){
             student->po[student->stPO].ocena = ocena;
-            strcpy(studentje[indeks]->po[studentje[indeks]->stPO].predmet, predmet);
+            memcpy(student->po[student->stPO].predmet, predmet, 4);
             student->stPO++;
         } else {
             student->po[indeksPo].ocena = ocena;
