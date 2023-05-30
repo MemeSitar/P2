@@ -44,8 +44,7 @@ int main(int argc, char* argv[]){
     }
 
     // pridemo do prave vrstice in stolpca
-    fread(buff, 3, (vrstica)*(sirina), slika);
-    fread(buff, 3, (stolpec), slika);
+    fseek(slika, ((vrstica*sirina) + stolpec) * 3, SEEK_CUR);
 
 
     fread(&R, 1, 1, slika);
