@@ -10,12 +10,11 @@ int main(int argc, char* argv[]){
     char* sirinaArr = calloc(10, sizeof(char));
     char* visinaArr = calloc(10, sizeof(char));
     int sirina = 0;
-    int visina = 0;
+    //int visina = 0;
     char buffer = '\0';
     int R = 0;
     int G = 0;
     int B = 0;
-    int* buff = malloc(300000);
 
     // P6'\n' (header)
     for(int i = 0; i < 3; i++){
@@ -35,7 +34,7 @@ int main(int argc, char* argv[]){
         visinaArr[i] = buffer;
         i++;
     }
-    visina = atoi(visinaArr);
+    //visina = atoi(visinaArr);
     //printf("%d\n", visina);
 
     // 255'\n' (header pred podatki.)
