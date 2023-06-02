@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <stdint.h>
 
 int main(int argc, char* argv[]){
     FILE* slika = fopen(argv[1], "rb");
@@ -13,12 +13,10 @@ int main(int argc, char* argv[]){
     int R = 0;
     int G = 0;
     int B = 0;
-    __uint8_t buff = 0;
+    uint8_t buff = 0;
 
     // P6'\n' (header)
-    for(int i = 0; i < 3; i++){
-        fgetc(slika);
-    }
+    fseek(slika, 3, SEEK_CUR);
     fprintf(izhodna, "P5\n");
 
     // pridobimo visino in sirino
@@ -40,9 +38,7 @@ int main(int argc, char* argv[]){
     fprintf(izhodna, "%d %d\n", sirina, visina);
 
     // 255'\n' (header pred podatki.)
-    for(int i = 0; i < 4; i++){
-        fgetc(slika);
-    }
+    fseek(slika, 4, SEEK_CUR);
     fprintf(izhodna, "255\n");
 
     for(int i = 0; i < visina*sirina; i++){
@@ -50,12 +46,14 @@ int main(int argc, char* argv[]){
         fread(&G, 1, 1, slika);
         fread(&B, 1, 1, slika);
 
-        buff = (__uint8_t) ceil((30*R + 59*G + 11*B)/100);
+        buff = (30*R + 59*G + 11*B)/100;
         fwrite(&buff, 1, 1, izhodna);
         //printf("%d %d %d\n", R, G, B);
     }
 
     fclose(slika);
     fclose(izhodna);
+    free(visinaArr);
+    free(sirinaArr);
     return 0;
 }
