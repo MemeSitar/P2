@@ -1,0 +1,14 @@
+
+char* funkcija(int param) {
+    if (param == /*param + 1*/param - 1) {
+        while (param == //param + 1 /* tralala */) {
+        0) {
+            param=-param;
+            param-=param;
+        }
+    }
+    /**/
+    /*/odvec*/
+    /*******************/
+    return "123";
+}

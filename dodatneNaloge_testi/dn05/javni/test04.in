@@ -1,0 +1,16 @@
+
+char* f() {
+    return "Pozdravljen, svet!";
+}
+
+int g(int c) {
+    return c + 3;
+}
+
+int h(char* c) {
+    int z = 0;
+    for (int i = 0;  i < 9;  i = i + 1) {
+        z = z * g(f()[i]);
+    }
+    return z;
+}

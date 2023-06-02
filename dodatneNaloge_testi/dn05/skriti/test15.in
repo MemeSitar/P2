@@ -1,0 +1,103 @@
+
+int Y() {
+    if (2) {
+    } else {
+        if (3) {
+            for (int e = 0; 1; e = (7)) {
+                for (int s = e > Y(); 8; s = 3) {
+                    int B = (((Y())));
+                    int l = 9 > Y();
+                    s = l;
+                    e = s;
+                }
+                e = 6;
+                int n = 5;
+                int A = n;
+                e = 6 + A;
+            }
+        }
+    }
+    return 6;
+}
+
+int e(int W, int c, int v) {
+    if ((7)) {
+    }
+    if (Y()) {
+    } else {
+    }
+    for (int k = 3 > 8; 2; k = 0) {
+        for (int _ = (4 + k) > 4 * k; Y(); _ = (_)) {
+            _ = _;
+            _ = _;
+        }
+        k = k - 7;
+        int S = ((e((8 > k), (Y()), 5)));
+    }
+    return 6;
+}
+
+int N(int Q, int G, int z) {
+    for (int K = 7; (((K) > Y() / 5)) - K / N(((N(7, ((2)), (K)))), ((K)), K); K = 1) {
+        K = K;
+        for (int D = (7); D; K = (K) > D) {
+            int H = 6;
+        }
+        int H = N(Y() > 7 < 7, Y(), (e(6, 3, K)));
+    }
+    return 2;
+}
+
+int D() {
+    for (int m = 8; m; m = N(m - (m), m, m)) {
+        int i = D();
+        int h = N((Y()), 6, i);
+        if (7) {
+            int _ = m;
+            if (i) {
+                if (D()) {
+                    m = 0;
+                    if (1 / (1 * m) < m) {
+                        int a = ((2));
+                        if ((a)) {
+                            h = 8;
+                            int l = 3;
+                            _ = (9);
+                        }
+                        m = 7;
+                        i = 2 > ((h));
+                        h = i;
+                    } else {
+                        i = 3;
+                    }
+                    h = m;
+                }
+            } else {
+                int w = (h);
+                h = 1;
+                int t = (D() + 9 / 8);
+                h = 9;
+            }
+        }
+        h = 9;
+        h = (i);
+    }
+    return (4) + 6;
+}
+
+int A(int s, int B, int i) {
+    for (int v = (((5) < 0) / 0); N(v, 2 < (5) < 1, N(4, v, v)); v = 1) {
+        for (int K = N(4, v, Y()); 7; K = K < (K)) {
+            int O = (5) > K;
+            int G = 4;
+            int S = 1 < 1;
+        }
+        v = 6 < v;
+        v = (7);
+        v = N(8, (((D()) < (v < 0 < (4) < e(v, D(), 6) < (v < (9))) < (D()) < v)), v) > 5;
+    }
+    for (int C = 6; Y(); C = ((0))) {
+        C = (C);
+    }
+    return 3 * 0;
+}

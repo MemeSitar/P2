@@ -1,0 +1,79 @@
+
+int P(int V) {
+    for (int c = (7); (5); c = 6) {
+        c = 0;
+        int O = (0);
+        if (1) {
+            for (int X = c; X; X = 8 < 2 > 5 / 3 > (6 / X)) {
+                int y = O < X;
+                if (X) {
+                    int l = P(6);
+                }
+                c = 0;
+                int l = 2;
+                y = l;
+            }
+            O = P((c));
+        } else {
+            c = (0) * 4;
+            c = P(P(P(P((c < 6)))));
+            int X = 3;
+            int H = O;
+            if (5) {
+                for (int E = 7; c; O = P(9) < 9 < X) {
+                    int t = 4;
+                }
+                for (int z = X; H > 4 / (2); X = 4 < ((1) > (((1 < H))))) {
+                    int G = 4 < 0;
+                    int s = P(z > O);
+                }
+                if (0) {
+                    c = X;
+                    for (int t = H; 2; X = (H)) {
+                        t = X;
+                    }
+                    H = 5 < P(H);
+                    int Y = (c - 7) < P(5) + ((P(O < 7) > 6)) < (H);
+                    int V = H;
+                } else {
+                    O = P(8);
+                    if (4) {
+                        X = P((c)) < H;
+                        if (1) {
+                            int K = ((P(4)));
+                            c = 3;
+                            int q = (P(4));
+                            int E = 8;
+                            K = ((K));
+                        } else {
+                            int Q = (H);
+                            int S = P(2);
+                            int s = (5);
+                            S = X;
+                            int e = ((s));
+                        }
+                        X = P(O);
+                    } else {
+                        int S = 9;
+                        O = X > P(S);
+                    }
+                    O = (c);
+                }
+                if (P(P(H))) {
+                    int g = P(4);
+                    H = 9;
+                    int e = 9;
+                } else {
+                    H = c;
+                    int d = c;
+                    int g = c;
+                    int B = c;
+                }
+            } else {
+                int B = 9;
+            }
+        }
+        int C = P(c);
+    }
+    return 5 + ((1) + ((4 - 5)) < P((9)) < 2) * 6 < (9 > 4);
+}

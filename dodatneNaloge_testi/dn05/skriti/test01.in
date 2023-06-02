@@ -1,0 +1,16 @@
+
+int F() {
+    return 2;
+}
+
+int E(int T, int p, int z) {
+    return 1;
+}
+
+int V(int A) {
+    return F();
+}
+
+int s(int M) {
+    return 9;
+}

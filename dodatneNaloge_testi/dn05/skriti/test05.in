@@ -1,0 +1,17 @@
+
+int A(int Q, int W) {
+    for (int c = 6; ((3)); c = ((A(c * 6, (c))))) {
+        for (int a = 8; (8); c = c / c) {
+            a = 6 < a;
+            c = A((A(c, (a))), c);
+            c = c;
+            int N = 2;
+            a = N * ((2));
+        }
+        c = 3;
+        int T = c;
+        int J = A(T, ((2)));
+        int p = J * J;
+    }
+    return 0;
+}

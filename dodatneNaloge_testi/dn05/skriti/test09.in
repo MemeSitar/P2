@@ -1,0 +1,4 @@
+
+int N(int M, int G, int l) {
+    return 9;
+}

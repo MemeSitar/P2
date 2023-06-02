@@ -1,0 +1,21 @@
+
+int p(int a, int B, int _) {
+    if (a > 9) {
+        for (int i = 0;  i < 3;  i = i + 1) {
+            q(a - 1, i + 2);
+        }
+    } else {
+        while (a > 6) {
+            int c = a - 1;
+            q(B > a, c);
+            a = c;
+        }
+    }
+    return -7;
+}
+
+int r(int a,int B,int _){if(a>9){for(int i=0;i<3;i=i+1){q(a-1,i+2);}}else{while(a>6){int c=a-1;q(B>a,c);a=c;}};return -7;} 
+
+int q(int Z, int c) {
+    return p(Z * c, c < Z, Z / c);
+}

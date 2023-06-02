@@ -1,0 +1,121 @@
+
+int h(int d, int P) {
+    return 5;
+}
+
+int f(int N) {
+    if (4) {
+        for (int D = 3; D; D = (8) * D - D) {
+            D = 3;
+            for (int X = 2 / f(7) > (D > D); D; X = f(((X))) + h((X), 2)) {
+                int o = 0 > D;
+                D = 7;
+                D = o;
+                if (D) {
+                    int i = h(2 / f(X) < 2, (3) < D / 2 < 0 > (X)) < (X);
+                } else {
+                    int Q = (o);
+                }
+            }
+            if ((f(h(D, (h((5), 5)) + (((D))))) + f(D))) {
+                D = 0;
+                int m = (2);
+            }
+            D = 5;
+        }
+    }
+    return f(8 * 8);
+}
+
+int u(int Q, int b) {
+    return 5;
+}
+
+int z() {
+    return (h(3, (4)) > (((((2) / 3)))) < ((h(z(), 1)) > 8 + (4)) + 0);
+}
+
+int Y(int F) {
+    for (int E = u(8, 1); z(); E = E) {
+        E = 7;
+        int d = 1;
+        int g = ((3));
+        g = ((E));
+        g = 9;
+    }
+    return 3;
+}
+
+int H(int x) {
+    return ((1)) > 6 - 9;
+}
+
+int x() {
+    if (6 * 6) {
+        if (((6))) {
+            if (6 - z()) {
+            } else {
+            }
+        }
+    }
+    for (int L = (((3))); L > (6) * 7; L = L) {
+        if (L) {
+            for (int r = L; L < L * (H(L)) > r; L = 0) {
+                r = r;
+                if ((r)) {
+                    L = 5;
+                }
+                r = r;
+            }
+            L = ((h((L), f(3)) > z()));
+        } else {
+            int o = L;
+            o = 5;
+            L = L;
+            int W = x();
+            int d = z();
+        }
+        L = (0 < u(L < (L), 0) < (L));
+        int _ = (L);
+        L = L;
+        L = (_) > ((u(_ * _ + _, _)));
+    }
+    return 5;
+}
+
+int O(int Z) {
+    return 9;
+}
+
+int n(int M) {
+    if (n(1)) {
+        if ((7 / (((6) > O((4)))))) {
+        } else {
+        }
+        if ((6)) {
+        } else {
+        }
+    }
+    if (3) {
+    } else {
+        for (int o = 3; o; o = f(6)) {
+            if (n(o)) {
+                int Q = 2 > o;
+            }
+            int r = o;
+            o = 1;
+        }
+    }
+    return (4) < 9 > (Y((((3 - 2))))) > (9);
+}
+
+int j(int I) {
+    for (int r = (5); 6 / 8; r = f((x()))) {
+        int m = r;
+        int S = j(m < 2);
+        int e = h(r, r);
+        int T = S;
+        r = (r) < O(x() > (S)) > f(7) > f((m));
+    }
+    return 4;
+}

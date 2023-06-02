@@ -1,0 +1,46 @@
+kalamata zadar 3 0 0
+portofino kalamata 2 0 0
+a_coruna portofino 1 0 0
+port_pirie a_coruna 3 0 1
+pichilingue port_pirie 2 0 1
+polignano_a_mare pichilingue 1 0 1
+durres polignano_a_mare 3 1 1
+cambria durres 2 1 1
+barranquilla cambria 1 1 1
+zhanjing barranquilla 3 1 0
+dubrovnik zhanjing 2 1 0
+newcastle dubrovnik 1 1 0
+casablanca newcastle 3 0 0
+santa_monica casablanca 2 0 0
+wellington santa_monica 1 0 0
+?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30

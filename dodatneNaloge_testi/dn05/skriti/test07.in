@@ -1,0 +1,185 @@
+
+int S(int t) {
+    if (1) {
+    } else {
+        if (S(S(8 < S(4 - 0 < S(6)))) < 5) {
+        }
+        if (2) {
+            if (6) {
+                if (9) {
+                    if ((S((3 < 4) + (S(2))) > S(2) < 8 < 8)) {
+                        for (int h = S(9); h; h = h) {
+                            if ((3 / (S(S(S(h))) > h))) {
+                                int B = S((S(S(6))) < h);
+                                int P = 7;
+                                h = (9);
+                                B = S((h));
+                                int R = 8;
+                            }
+                            int o = (0);
+                        }
+                        if ((S((9)))) {
+                            for (int B = 6; S(B); B = 9) {
+                                int t = 8;
+                                if ((1 - 3 < (t))) {
+                                    int R = B - ((7));
+                                    int s = t;
+                                } else {
+                                    if (7) {
+                                        int q = ((S((S(6)) > (t))));
+                                        int G = B;
+                                    }
+                                    if (B) {
+                                        int i = B;
+                                        int W = t < 7 > t;
+                                    } else {
+                                        for (int z = S(((8))); (0); t = 0) {
+                                            t = 0;
+                                        }
+                                        B = B < (((1))) + (1 < 6 > 4 / t > B < 6);
+                                        int E = t;
+                                    }
+                                    if (((B))) {
+                                        t = 7;
+                                        int Z = 4;
+                                        int e = 9;
+                                        int O = 4;
+                                        int X = (8);
+                                    }
+                                    B = S(0);
+                                }
+                                int L = (S((S(8))) > (S(t)) < 8);
+                            }
+                        }
+                    } else {
+                    }
+                }
+            } else {
+            }
+            for (int A = 2 / S(1); S(A); A = A) {
+                A = A;
+                if (4) {
+                    int n = (2);
+                }
+                int u = 1 < 2;
+                A = (S(3));
+            }
+        }
+    }
+    return (8);
+}
+
+int b(int i, int T, int R) {
+    return S(4) + S(5 > S(2));
+}
+
+int Y(int _, int J, int m) {
+    return 8;
+}
+
+int i() {
+    return 5;
+}
+
+int W(int C, int N) {
+    if (i() * (7)) {
+        for (int f = Y(7, 5, 9); f; f = (i() < (i()))) {
+            f = 7;
+        }
+    } else {
+        for (int d = W((7), 2); Y(W(3, (d) < d) > W(S(d + i() > 7 > 5 * d), (7)), d, (b(d + 8, 6, 6))); d = (3)) {
+            d = 3;
+            int Z = 5;
+            Z = 1;
+            int I = Z;
+        }
+    }
+    return (Y(6, 7, ((8))) < 8);
+}
+
+int q(int _, int h) {
+    return 5 < (6 < 6);
+}
+
+int D(int N, int f) {
+    if (2) {
+        if (8) {
+            for (int k = 5; 7; k = k < 7) {
+                int t = (k);
+                k = t + (t);
+            }
+        } else {
+            if (4) {
+            } else {
+                for (int r = b(6, 5, W(2, ((1)) < (0) > 8 > q(3, 6) < 7)); (9 < 7 > 9); r = r) {
+                    r = 1;
+                    r = ((D(3, r)));
+                    if (q(1, 6)) {
+                        r = (r);
+                    } else {
+                        r = r > ((2));
+                        if (r < i() - W(7, 2)) {
+                            int e = r - r;
+                            r = (b(3, e, (r + Y(r, (4 / e < e), 5)))) + 7 / (e > Y(e, i(), e)) < r < r > b((r * 2) < r > 6 > r, S(7), 4);
+                        } else {
+                            r = r > 8;
+                            int _ = r / (8 + 0 / (r) < 5);
+                            r = 4;
+                            int v = 6;
+                            int P = (7);
+                        }
+                        r = (9);
+                        int n = (i());
+                        n = (W(0, Y(8, 1, 4)));
+                    }
+                    int V = r;
+                }
+                for (int y = 9 < 1; y; y = 8) {
+                    y = 8;
+                    y = q(Y(y, y, 9) > y > W(Y(y, y, (6)), y), 7);
+                }
+            }
+        }
+    } else {
+    }
+    return 7;
+}
+
+int w(int o, int c, int V) {
+    for (int H = 7 > 8; H - 9 > (S(H)); H = q(H, (9))) {
+        for (int z = 3 > H / ((3 > 6) > 4); W(z, w(D(5, 1 < 8 - z), 0, 0 < 9)); z = q(H, H) > S(6 + 1) / H) {
+            int t = H;
+            z = 4;
+            t = (z < ((3)));
+        }
+        int N = H;
+        int x = N;
+        int o = x;
+    }
+    for (int y = (((6 / 2 < 6) < (0))); (W(((y)), y)); y = (y)) {
+        int u = 8 < 8;
+        u = 5;
+        int e = (u / (S(2)) / 4 < (((D((4 < u < W(2 > W(((u) * 5 * u), (u)), 5)), 4 > u * u))) - y + (4 < Y((1) > ((S(((q((Y(7, u, q(y, u < (y)))), (y) < (u) - u)))) - (0))), 0 / 9, 5))));
+        e = e;
+    }
+    for (int Z = 8; 0; Z = (Z < ((Z + 2) - (Z) > 9 < Z + Z))) {
+        for (int N = Z < Z; 2 < D(q((w(9 < i(), q((N), (N)), 8)), Y(Z, 4, Z) - 9), N) * N; N = N) {
+            int p = Z;
+            int P = (8);
+            N = (Y(((6) > w(Z, Z, N) * (Z) < w(((0) / w(((((Z)))), ((6 + Z)), p > N) > 5), Z, i())), (N) < (P), 3)) / W(D((w(5, p, D(8, ((q(i(), 7)))))), D((((Z) > N)) - (S((p < (i() < ((2) * ((Z) + b((7) < Z < N < D((9), Z), 7 > 9, D(q(N, 4), p)))) < ((3) < 8 - 0 < (0)))))) < N, p) < ((p)) - 0), (q(8 < (5), (N / 5)))) > W((7), w(9, S(Z), P + (8) < P < i() - (((N)) < D((4) * 5, P)))) + (W(Y(N, (i()), p), P) > (5) > D(((Y(N < P, 0, 6))), (1 - W((6), (7))) > P > Y(p < Z * S(4) < ((3)) / 6 > p > ((Z) / 0 * b((D(((5)) < Z, 6)), D(5, S(N) > 7), p)), 4, P) + i()) * (S(N)) - P);
+        }
+        int X = (q(Z, Z > (Z)));
+    }
+    return 4;
+}
+
+int K(int T, int Q, int p) {
+    for (int F = 8; F; F = K(W(F, 0 * F < D(K((0) < ((1)) < F, (F), (F)) - 2 > 0 / Y((0) > (F), F, F) < ((q((1), 8))) < F, 4)), 2, F)) {
+        for (int T = (q(F, F)); (1 - 9); T = 0) {
+            T = 1;
+            T = 3;
+            F = ((Y(S(5), (b(q(F, W(K(F < ((w((6) < ((T)) * T, i(), 7))), b((F), K(w(1, w(F, w(F, 5, K(T, w(F, T < (T), ((1) < (6))) < i(), F)), (T) < F) < 5, T), ((T)), ((F))), (W(T * F, i() < Y(b(4, T, 5), ((F > ((w(D((F), F), (4), (5)))) > 8)), (T)) / T + 7 + F < (F)))), 8), T)), F, 4)), 1) < (8) < W((9), ((7 < F - 0) * 2)))) * b(((T)), (T), i());
+        }
+    }
+    return 2;
+}

@@ -1,0 +1,1 @@
+int f(){int a=3;return a;}int g(){return(g()-1);}

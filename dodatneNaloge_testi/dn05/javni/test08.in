@@ -1,0 +1,15 @@
+
+int main() {
+    int a= 3, b,c, ploscina;  // spremenljivke tipa int
+    int b7D_81e=-124;
+    while (ploscina >7){
+        a*=b*-c/ploscina>=42;
+        char* niz = "danes je lep dan";
+        /*
+         * to je komentar
+         * "niz znotraj komentarja sploh ni niz"
+         */ int fuj666;
+        char*t="//komentar/*znotraj niza*/sploh ni komentar";
+    }
+    return 0;
+}

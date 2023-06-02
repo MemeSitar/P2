@@ -1,0 +1,238 @@
+
+int r() {
+    for (int B = 4; B < 4; B = r()) {
+        B = B;
+        int _ = (B);
+    }
+    if ((6 * 2 / r())) {
+    }
+    return (4);
+}
+
+int s(int c) {
+    return (r());
+}
+
+int j() {
+    for (int p = 4; 7; p = r()) {
+        int B = p;
+        int v = p;
+        B = 7;
+        p = ((0));
+        int G = v;
+    }
+    return 7 < 1;
+}
+
+int w(int d) {
+    if (j()) {
+    } else {
+        if (3) {
+            if (8) {
+                for (int U = 9; U; U = U) {
+                    int K = 4;
+                    int M = w(((3) / 8) * 8);
+                    U = 9;
+                }
+            } else {
+            }
+        }
+    }
+    return (2);
+}
+
+int v() {
+    for (int y = (3); (y); y = ((y))) {
+        int H = j();
+        int M = y;
+        int I = (M);
+        I = y;
+    }
+    if (9) {
+    } else {
+        for (int R = j() > 2 > 2 < 7; 5; R = ((R)) + j()) {
+            int g = R;
+            int l = 0;
+        }
+    }
+    return 7;
+}
+
+int x() {
+    return s(6);
+}
+
+int T(int U, int p) {
+    if (8) {
+        for (int A = 8 < (T((9) + 2, x())); A; A = A + (6)) {
+            for (int H = 9; (H); A = (H)) {
+                int d = (j());
+                int c = 6;
+                c = (0);
+                if (6) {
+                    A = s(A);
+                } else {
+                    H = (d / d > w(((A < (9)))) * c / d + 6);
+                    int k = 4;
+                    c = (8);
+                    if (((7))) {
+                        H = A;
+                        if (c) {
+                            if (H) {
+                                if ((7)) {
+                                    k = c;
+                                } else {
+                                    int g = (d + (A < (3)));
+                                    d = s(j());
+                                    int Y = 9;
+                                }
+                                A = k;
+                                d = 4;
+                                int R = k + (H);
+                                H = (5 - (6)) < (A);
+                            } else {
+                                int L = (j() * A < 5 > 8);
+                                A = 7;
+                                int M = r() > 8 > A;
+                            }
+                            c = (H);
+                            d = (4);
+                            int N = (2 < (9 + (w(H))));
+                            int t = N;
+                        } else {
+                            if ((1)) {
+                                if (((7 / j() * s(c) < 2 * (8) < (A) > d + (6) / ((H)) + 0))) {
+                                    for (int f = (4); (j()) > ((s(6))); H = (T(c, j() > A))) {
+                                        d = r();
+                                        H = 1;
+                                    }
+                                    int Y = r();
+                                }
+                            }
+                            for (int b = 0; (A > b) - (d + x()); c = (4)) {
+                                H = (T(d, (8)));
+                                d = H;
+                                b = b;
+                                b = H < 3;
+                                A = (0);
+                            }
+                            if ((2) < 3) {
+                                A = ((8));
+                            }
+                            for (int E = x(); 2 / 9; E = w(3) < x()) {
+                                c = 9;
+                            }
+                        }
+                        int N = H;
+                        int G = r();
+                        H = H < v() < (8 + (d));
+                    } else {
+                        A = 8;
+                        H = 6;
+                        int O = 1;
+                        k = w(T(O, T((4), 4 / H < 4 < 2)));
+                    }
+                }
+                int t = (A < w(5));
+            }
+            A = j() + (2 / A);
+            int F = A;
+            F = 4;
+        }
+        if (r()) {
+        }
+        for (int C = 7; j() < (C); C = C) {
+            int W = ((8 + v() + 9 < x()) < (x()));
+            for (int e = (7 > 9 < W) > W; 0; e = (W > W > j())) {
+                int y = 0 > 8 < C;
+            }
+        }
+    } else {
+    }
+    if (s((w(3))) * ((3))) {
+        for (int S = 5 > v(); S; S = (w(4)) + ((6 + S))) {
+            S = 0;
+            int W = 1;
+            int p = ((W));
+            S = S;
+        }
+        if (j()) {
+            for (int k = v(); k; k = ((r() > ((k) < k > (0 < k < k))))) {
+                if (v()) {
+                    k = 6;
+                    int L = (k);
+                }
+                k = k;
+                for (int H = k; H; k = H > w(8)) {
+                    for (int o = 2; j(); H = (1)) {
+                        int p = 4 > H;
+                        H = 9 < 4 * o;
+                        int n = x();
+                        n = 7;
+                        for (int c = w(0 - p) < p; c; H = 7 / 8) {
+                            if (H) {
+                                k = p + k - (n < x() < k) > (((6))) > 4;
+                                int G = k;
+                                int t = x() > v();
+                                o = 5;
+                            }
+                            int F = (H);
+                        }
+                    }
+                }
+                int b = (7 * (6 / k) / 4);
+                for (int n = 4; (k); b = 8) {
+                    int S = ((((((s(n) / ((n * 8)) < (k)))))));
+                    int a = (0);
+                }
+            }
+            for (int f = 0; v(); f = x()) {
+                f = 6;
+                f = 9;
+                int k = f;
+                int M = ((3));
+                for (int u = v(); k; f = ((9))) {
+                    int Y = T(x(), 3);
+                    M = (9 > ((4)));
+                }
+            }
+        }
+    }
+    if (((6))) {
+        for (int f = 1; w(3); f = f) {
+            f = (7);
+            f = (T((f), f));
+            f = f;
+        }
+    } else {
+        for (int _ = (1); T((((5))), (_) > ((s(_ * 2)) * ((1) < _)) < _ + 1); _ = ((_))) {
+            _ = _;
+            _ = ((v()) > 9);
+        }
+    }
+    return (1 > 9);
+}
+
+int G(int c, int I) {
+    return (8);
+}
+
+int U(int l, int p, int D) {
+    for (int t = T(0, (9)); t; t = t) {
+        t = (9);
+    }
+    for (int h = (s(1)); 1; h = 4) {
+        int B = (6) - 6;
+    }
+    for (int y = 0; y; y = (y)) {
+        y = ((U(6, y, 4) * T(((7 < y > (y) * y * 6)), 0)) < (6) > y > G(s(y < y / y) * y, 0) / U(2 < ((x())) < 9 < y, r(), y) < (0 < (y) > G(y, (j()))));
+        y = y;
+        int _ = y;
+    }
+    for (int p = 4 * 7 - 7; T((p), 5); p = 9) {
+        int M = p;
+        int m = p < M;
+        M = ((r())) > p;
+    }
+    return w((9));
+}
