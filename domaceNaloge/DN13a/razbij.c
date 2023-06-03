@@ -40,4 +40,6 @@ int main(int argc, char* argv[]){
     }
 
     fclose(vhodna);
+    free(izhodnaIme);
+    free(bytes);
 }
