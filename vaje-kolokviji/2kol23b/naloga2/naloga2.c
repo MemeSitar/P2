@@ -25,6 +25,7 @@ void izlociDuplikate(Vozlisce* zacetek) {
     Vozlisce* trenutno = zacetek;
     Vozlisce* prejsnje;
     Vozlisce* iskano;
+    Vozlisce* tmp;
     int vrednost;
 
     while(trenutno != NULL){
@@ -34,11 +35,14 @@ void izlociDuplikate(Vozlisce* zacetek) {
         vrednost = *trenutno->p;
         while(iskano != NULL){
             if (vrednost == *iskano->p){
-                prejsnje->naslednje = iskano->naslednje;
+                tmp = iskano->naslednje;
+                prejsnje->naslednje = tmp;
+                free(iskano);
+                iskano = tmp;
             } else {
                 prejsnje = iskano;
+                iskano = iskano->naslednje;
             }
-            iskano = iskano->naslednje;
         }
         trenutno = trenutno->naslednje;
     }
