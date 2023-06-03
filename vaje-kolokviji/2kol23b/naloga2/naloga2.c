@@ -18,10 +18,30 @@
 
 #include "naloga2.h"
 
+#define SEG printf("%s:%d\n", __FILE__, __LINE__);
 // po potrebi dopolnite ...
 
 void izlociDuplikate(Vozlisce* zacetek) {
-    // dopolnite ...
+    Vozlisce* trenutno = zacetek;
+    Vozlisce* prejsnje;
+    Vozlisce* iskano;
+    int vrednost;
+
+    while(trenutno != NULL){
+        //printf("mjau\n");
+        iskano = trenutno->naslednje;
+        prejsnje = trenutno;
+        vrednost = *trenutno->p;
+        while(iskano != NULL){
+            if (vrednost == *iskano->p){
+                prejsnje->naslednje = iskano->naslednje;
+            } else {
+                prejsnje = iskano;
+            }
+            iskano = iskano->naslednje;
+        }
+        trenutno = trenutno->naslednje;
+    }
 }
 
 //=============================================================================
