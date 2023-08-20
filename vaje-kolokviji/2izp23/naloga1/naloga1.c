@@ -17,8 +17,8 @@ int main(int argc, char** argv) {
     FILE * vhodna = fopen(argv[1], "rb");
     FILE * izhodna = fopen(argv[2], "wb");
 
-    __u_int buff = 0x0;
-    __u_int byte = fgetc(vhodna);
+    __u_int buff = 1000000;
+    __u_int byte;
 
 
     while((byte = fgetc(vhodna)) != EOF){
