@@ -16,8 +16,8 @@
 #include <string.h>
 
 // po potrebi dopolnite ...
-void razbij(int najmanj, int najvec, char* niz);
-void kopirajDoKonca(char* niz1, char* niz2, int trenutna1, int trenutna2);
+void razbij(int trenutna, int najmanj, int najvec, char* niz, char* buffer);
+
 
 int main() {
     char* buffer = calloc(100, sizeof(char));
@@ -26,21 +26,35 @@ int main() {
     int najvec;
     scanf("%s%d%d", niz, &najmanj, &najvec);
 
-    buffer[0] = niz[0];
-    buffer[1] = '|';
+    // prestej stevilo characterjev v nizu.
+    int dolzina = 0;
+    for(int i = 0; niz[i] != '\0'; i++){
+        dolzina++;
+    }
+
+    printf("%s je dolg %d\n", niz, dolzina);
+
     kopirajDoKonca(niz, buffer, 1, 2);
     printf("%s\n", buffer);
     return 0;
 }
 
-void razbij(int najmanj, int najvec, char* niz){
+void razbij(int trenutna, int najmanj, int najvec, char* niz, char* buffer){
+    if(niz[0] == '\0' || najvec == 1){
+        printf("%s\n", buffer);
+        return;
+    }
+    
+    int dolzina = 0;
+    for(int i = 0; niz[i] != '\0'; i++){
+        dolzina++;
+    }
 
-}
+    if(dolzina < najmanj){
+        return;
+    }
 
-void kopirajDoKonca(char* source, char* dest, int trenutna1, int trenutna2){
-    while(source[trenutna1] != EOF){
-        dest[trenutna2] = source[trenutna1];
-        trenutna2++;
-        trenutna1++;
+    for(int i = 0; i < dolzina; i++){
+        buffer[trenutna + i] = niz[i];
     }
 }
