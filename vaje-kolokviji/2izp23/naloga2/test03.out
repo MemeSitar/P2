@@ -1,0 +1,16 @@
+z|a|n|k|a
+z|a|n|ka
+z|a|nk|a
+z|a|nka
+z|an|k|a
+z|an|ka
+z|ank|a
+z|anka
+za|n|k|a
+za|n|ka
+za|nk|a
+za|nka
+zan|k|a
+zan|ka
+zank|a
+zanka
